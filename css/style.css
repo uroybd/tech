@@ -574,3 +574,8 @@ nav a.current {
     text-align: center;
   }
 }
+
+
+article::-webkit-scrollbar {
+  display: none;
+}
