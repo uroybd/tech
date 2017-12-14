@@ -311,6 +311,7 @@ nav {
 }
 article {
   margin-top: 30px;
+  overflow-x: scroll;
 }
 article::after,
 header::after {

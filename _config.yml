@@ -35,11 +35,11 @@ lang: en
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
-display-social-icons: false
+display-social-icons: true
 # If you want social links to open in a new tab, set this as true
 social-icons-open-newtab: true
 
-footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: © ২০১৭ যন্তর-মন্তর। সর্বসত্ব সংরক্ষিত।.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 # logo-image: /img/logo.png
@@ -80,7 +80,7 @@ paginate: 3
 display-next-prev-post: false
 
 # Leave empty if you don't want comments on post pages.
-#disqus-shortname: "yantar-mantar"
+disqus-shortname: "yantar-mantar"
 
 
 ################
