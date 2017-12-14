@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 | Name | Type | Value | 
-| --------------------- | ----- | ------------- |
+| :--------------------- | :-----: | :------------- |
 | font.name.serif.x-beng | String | Noto Sans Bengali |
 | font.name.sans-serif.x-beng | String | Noto Sans Bengali |
 | font.name.monospace.x-beng | String | Noto Sans Bengali |
