@@ -60,8 +60,14 @@
            };
 
 
-           $(".fnote").click(function(){
-             this.removeClass("shownote");
+           $(document).mouseup(function (e){
+             var container = $(".fnote");
+             
+             if (!container.is(e.target)
+                 && container.has(e.target).length === 0)
+               {
+                 container.removeClass("shownote");
+               }
            });
 
            fancyFootnote("article");
