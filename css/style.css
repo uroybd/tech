@@ -30,29 +30,29 @@
   background: #e1e1e1;
   border: 0px none #ffffff;
   border-radius: 50px;
-
-  &:hover {
-    background: #ffffff;
-  }
-
-  &:active {
-    background: #000000;
-  }
 }
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
 
 ::-webkit-scrollbar-track {
   background: #666666;
   border: 0px none #ffffff;
   border-radius: 50px;
-
-  &:hover {
-    background: #666666;
-  }
-
-  &:active {
-    background: #333333;
-  }
 }
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+
 
 ::-webkit-scrollbar-corner {
   background: transparent;
@@ -470,10 +470,10 @@ nav a.current {
 
 @media all and (min-width: 370px) {
   .website-title {
-    font-size: 32px;
+    font-size: 50px;
   }
   body {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media all and (min-width: 500px) {
