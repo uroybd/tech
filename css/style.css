@@ -388,16 +388,6 @@ nav a.current {
   background-image: linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
 }
 
-.fnote {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  display: none;
-}
-
 .fnote .note-wrapper {
   margin: 20px auto;
   max-width: 600px;
@@ -411,6 +401,18 @@ nav a.current {
   -moz-box-shadow: 2px 2px 5px 0px #f1f1f1;
   box-shadow: 2px 2px 5px 0px #f1f1f1;
 }
+
+.fnote {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: none;
+}
+
+
 
 .shownote {
   display: flex;
