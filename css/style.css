@@ -238,9 +238,13 @@ pre {
   color: #f8f8f2;
   line-height: 1.4;
   margin: 30px auto;
+  font-family: 'Source Code Pro', monospace;
+
 }
 pre code {
   font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+
 }
 small {
   font-size: .8em;
@@ -559,3 +563,6 @@ nav a.current {
   }
 }
 
+.highlight {
+  font-family: 'Source Code Pro', monospace;
+}
