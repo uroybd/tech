@@ -46,7 +46,7 @@
                  $(this).attr('id', fid);
                  $(this).html('<i class="fa fa-asterisk"></i>');
                  $(this).click(function(){
-                   f = "fnote-" + $(this).attr('id').split(":")[1];
+                   var f = "fnote-" + $(this).attr('id').split(":")[1];
                    shownote(f);
                  });
                });
@@ -63,6 +63,8 @@
            $(".fnote").click(function(){
              this.removeClass("shownote");
            });
+
+           fancyFootnote("article");
           </script>
 	</div>
 	{% include footer.html %}
