@@ -289,6 +289,8 @@ hr {
   max-width: 700px;
   min-height: 100%;
   margin-bottom: -141px;
+  width: 100vw;
+  
 }
 .wrap::after {
   content: "";
@@ -565,4 +567,10 @@ nav a.current {
 
 .highlight {
   font-family: 'Source Code Pro', monospace;
+}
+
+@media (orientation: portrait){
+  .subtitle {
+    text-align: center;
+  }
 }
