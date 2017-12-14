@@ -23,6 +23,47 @@
 				}
 	  	});
 	  </script>
+          <script>
+           function fancyFootnote(element) {
+             var notenum = 0;
+             $(element).each(function(){
+               $(this).find(".footnotes").find("[id^='fn:']").each(function() {
+                 $(this).find(".reversefootnote").each(function () {
+                   $(this).remove();
+                 });
+                 var note = document.createElement("div");
+                 var did = $(this).attr("id").split(":")[1];
+                 var notename = "fnote" + "-" + notenum + "-" + did;
+                 note.id = notename;
+                 note.className = "fnote";
+                 note.innerHTML = '<div class="note-wrapper">' + $(this).html() + '</div>';
+                 $("body").append(note);
+                 $(this).hide();
+               });
+               
+               $(this).find("[id^='fnref:']").each(function(){
+                 var fid = "fnote" + ":" + notenum + "-" + $(this).attr('id').split(":")[1];
+                 $(this).attr('id', fid);
+                 $(this).html('<i class="fa fa-asterisk"></i>');
+                 $(this).click(function(){
+                   f = "fnote-" + $(this).attr('id').split(":")[1];
+                   shownote(f);
+                 });
+               });
+               notenum += 1;
+             });
+           };
+
+           function shownote(f) {
+             $(".fnote").removeClass("shownote");
+             $("#" + f).addClass("shownote");
+           };
+
+
+           $(".fnote").click(function(){
+             this.removeClass("shownote");
+           });
+          </script>
 	</div>
 	{% include footer.html %}
 </body>
