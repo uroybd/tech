@@ -89,17 +89,17 @@ disqus-shortname: "yantar-mantar"
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter: https://twitter.com/uroybd
+twitter: "https://twitter.com/uroybd"
 youtube:
 instagram:
 tumblr:
-facebook: https://facebook.com/uroybd
+facebook: "https://facebook.com/uroybd"
 google-plus:
 reddit:
 soundcloud:
 medium:
 linkedin:
-github: https://github.com/uroybd
+github: "https://github.com/uroybd"
 behance:
 codepen:
 dribbble:
