@@ -420,11 +420,7 @@ nav a.current {
   color: rgba({{ site.text-color }},.5);
 }
 .subtitle a {
-  background-image: -webkit-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -moz-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -o-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: -ms-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
-  background-image: linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
+ 
 }
 
 .fnote .note-wrapper {
