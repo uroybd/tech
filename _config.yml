@@ -5,16 +5,16 @@ name: "যন্তর-মন্তর"
 description:
 
   # Description of your site. This will show up in google.
-  meta: উৎসবের প্রযুক্তি ব্লগ
+  meta: "উৎসবের প্রযুক্তি ব্লগ"
 
   # Description of your site. This will show up on the front page.
-  subtitle: উৎসবের প্রযুক্তি ব্লগ।
+  subtitle: "উৎসবের প্রযুক্তি ব্লগ।"
 
 author:
-  name: উৎসব রায়(Utsob Roy) # Change this!
+  name: "উৎসব রায়(Utsob Roy)" # Change this!
 
   # Necessary for contact page
-  email: uroybd@gmail.com # Change this!
+  email: "uroybd@gmail.com" # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
