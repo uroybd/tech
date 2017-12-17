@@ -435,7 +435,14 @@ nav a.current {
   display: none;
 }
 
+.social-icon {
+  margin-bottom: 30px;
+}
 
+.social-icon i {
+  font-size: 1.3em;
+  padding-right: 10px;
+}
 
 .shownote {
   display: flex;
