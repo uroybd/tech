@@ -448,6 +448,10 @@ nav a.current {
   display: flex;
 }
 
+.emoji {
+  display: inline-block;
+}
+
 #return-to-top {
   position: fixed;
   bottom: 20px;
