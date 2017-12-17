@@ -13,17 +13,32 @@
 		{% include header.html %}
 		{{ content }}
 	  <script>
-	    $("article").fitVids();
-	    $('article p').each(function(i){
-				if (($(this).find('img').length) && (!$.trim($(this).text()).length))  {
-					$(this).addClass('img-only');
-				}
-				if ($.trim($(this).text()).length - $.trim($(this).find('small').text()).length == 0 && ($(this).find('img').length)){
-					$(this).addClass('img-only-source');
-				}
-	  	});
+	   $("article").fitVids();
+	   $('article p').each(function(i){
+	     if (($(this).find('img').length) && (!$.trim($(this).text()).length))  {
+	       $(this).addClass('img-only');
+	     }
+	     if ($.trim($(this).text()).length - $.trim($(this).find('small').text()).length == 0 && ($(this).find('img').length)){
+	       $(this).addClass('img-only-source');
+	     }
+	   });
 	  </script>
+          <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
           <script>
+           $(window).scroll(function() {
+             if ($(this).scrollTop() >= 50) {      
+               $('#return-to-top').fadeIn(200);    
+             } else {
+               $('#return-to-top').fadeOut(200);   
+             }
+           });
+           $('#return-to-top').click(function() {  
+             $('body,html').animate({
+               scrollTop : 0                       
+             }, 500);
+           });
+
+           
            function fancyFootnote(element) {
              var notenum = 0;
              $(element).each(function(){
