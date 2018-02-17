@@ -600,3 +600,8 @@ nav a.current {
 article::-webkit-scrollbar {
   display: none;
 }
+
+.website-title img {
+  height: 64px;
+  width: auto;
+}
