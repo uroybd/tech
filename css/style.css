@@ -292,7 +292,7 @@ header {
   color: rgba({{ site.text-color }},.5);
 }
 header img {
-  height: 32px;
+  height: 64px;
   display: inline-block;
 }
 nav {
