@@ -42,7 +42,8 @@ social-icons-open-newtab: true
 footer-text: © ২০১৭ যন্তর-মন্তর। সর্বসত্ব সংরক্ষিত।.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
-# logo-image: /img/logo.png
+
+logo-image: /img/Zantar-Mantar.svg
 
 # Toolbar color for Chrome on Android.
 theme-color-attr: "#00f0ff"
